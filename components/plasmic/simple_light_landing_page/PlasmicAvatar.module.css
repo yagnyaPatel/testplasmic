@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  width: 96px;
+  height: 96px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 48px;
+}
+.img__jutN {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.img__jutN > picture > img {
+  object-fit: cover;
+}
+.img__jutN > .__wab_img-spacer > img {
+  object-fit: cover;
+}
